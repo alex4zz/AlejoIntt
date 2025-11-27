@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Mi Proyecto</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HOME SECTION -->
+  <header class="site-header">
+    <nav class="main-nav">
+      <a href="index.html" class="brand-logo">MiMarca</a>
+      <button class="nav-toggle" aria-label="Abrir menú" id="navToggle">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-menu__item">
+          <a class="nav-menu__link nav-menu__link--active" href="index.html">Home</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="about.html">Nosotros</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="services.html">Servicios</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="contact.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Desarrollo web full stack</p>
+        <h1 class="hero__title">Impulsa tu presencia digital con un sitio moderno y escalable</h1>
+        <p class="hero__subtitle">
+          Diseños responsivos, buenas prácticas y rendimiento optimizado para que tu proyecto destaque desde el primer clic.
+        </p>
+        <div class="hero__actions">
+          <a href="services.html" class="btn btn--primary">Ver servicios</a>
+          <a href="contact.html" class="btn btn--ghost">Agenda una llamada</a>
+        </div>
+        <div class="hero__meta">
+          <span class="hero__meta-item">Arquitectura escalable</span>
+          <span class="hero__meta-separator">•</span>
+          <span class="hero__meta-item">Buenas prácticas de código</span>
+          <span class="hero__meta-separator">•</span>
+          <span class="hero__meta-item">Soporte continuo</span>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero-card">
+          <p class="hero-card__label">Proyecto en tiempo real</p>
+          <p class="hero-card__title">Dashboard de métricas</p>
+          <p class="hero-card__info">Stack: HTML, CSS, ES6, APIs REST</p>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stats__item">
+            <p class="hero-stats__number">+50</p>
+            <p class="hero-stats__label">Páginas entregadas</p>
+          </div>
+          <div class="hero-stats__item">
+            <p class="hero-stats__number">< 1s</p>
+            <p class="hero-stats__label">Tiempo de respuesta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
